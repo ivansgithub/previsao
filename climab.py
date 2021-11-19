@@ -21,7 +21,7 @@ app = dash.Dash(__name__,external_stylesheets=[dbc.themes.LUX,FONT_AWESOME],meta
         {"name": "viewport", "content": "width=device-width, initial-scale=1"}
     ],)
 
-
+server=app.server
 
 temperatura =    ['Temp. atual (°C)','Temp. máx (°C)', 'Temp. mín (°C)','Chuva(%)','Umidade(%)','Vento(m/s)']
 
